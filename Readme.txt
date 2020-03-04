@@ -12,6 +12,7 @@
 
 
 ## Setting requirements
+>> pip install -r requirements.txt
 >> Need to modify datapath in 'datasetload.py'
 
 ## Reference code
