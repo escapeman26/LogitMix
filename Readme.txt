@@ -1,0 +1,15 @@
+Run
+>> python main.py \
+--network resnet50 \
+--dataset cifar100 \
+--batch_size 128 \
+--mixmethod logitmix_M \
+--weights 0 1 1 \
+--dist beta \
+--alpha 3 \
+--loss mse_mixed_logsoftmax \
+--gpu 0
+
+
+Setting requirements
+>> Need to modify datapath in 'datasetload.py'
