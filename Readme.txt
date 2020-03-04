@@ -1,4 +1,4 @@
-Run
+## Run
 >> python main.py \
 --network resnet50 \
 --dataset cifar100 \
@@ -11,5 +11,10 @@ Run
 --gpu 0
 
 
-Setting requirements
+## Setting requirements
 >> Need to modify datapath in 'datasetload.py'
+
+## Reference code
+github.com/weiaicunzai/pytorch-cifar100
+github.com/pytorch/vision
+https://github.com/clovaai/CutMix-PyTorch
