@@ -4,7 +4,7 @@
 --dataset cifar100 \
 --batch_size 128 \
 --mixmethod logitmix_M \
---weights 0 1 1 \
+--weights 1 1 1 \
 --dist beta \
 --alpha 3 \
 --loss mse_mixed_logsoftmax \
